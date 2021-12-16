@@ -63,7 +63,7 @@ export const StatsItem = styled.li`
   flex-basis: calc(100% / 3);
   text-align: center;
 
-  &:not(:first-child) {
+  &:not(:first-of-type) {
     border-left: 1px solid rgb(75, 204, 255);
   }
 `;
