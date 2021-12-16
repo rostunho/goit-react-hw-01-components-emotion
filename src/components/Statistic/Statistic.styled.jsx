@@ -1,11 +1,13 @@
-.statistics {
+import styled from '@emotion/styled';
+
+export const StatBox = styled.section`
   width: 500px;
   margin: 0 auto 30px;
   border-radius: 10px;
   overflow: hidden;
-}
+`;
 
-.title {
+export const Title = styled.h2`
   font-size: 25px;
   font-weight: 700;
   text-align: center;
@@ -21,28 +23,28 @@
     rgb(75, 204, 255) 10px,
     rgb(75, 204, 255) 10.5px
   );
-}
+`;
 
-.list {
+export const List = styled.ul`
   display: flex;
   padding: 0;
   margin: 0;
-}
+`;
 
-.item {
+export const Item = styled.li`
   flex-basis: calc(100% / 3);
   text-align: center;
   padding: 10px 0;
-}
+`;
 
-.label {
+export const Label = styled.span`
   display: block;
   margin: 0 0 5px;
   color: rgb(240, 240, 240);
-}
+`;
 
-.percentage {
+export const Percentage = styled.span`
   font-family: Roboto;
   font-size: 30px;
   color: #fff;
-}
+`;
